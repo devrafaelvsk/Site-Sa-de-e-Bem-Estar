@@ -1,0 +1,120 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/background4.jpg') no-repeat center center fixed; /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#paginas li a {
+    color: #000000;
+}
+
+header {
+    background-color: rgba(2, 168, 8, 0.8); /* Cor de fundo do header com 80% de opacidade */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centraliza os itens de navegação */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 3rem; /* Aumenta o padding para aumentar a altura */
+    margin: 2rem auto; /* Aumenta a margem para espaçamento entre as seções */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Aumenta a largura máxima da seção */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+.welcome-section img {
+    max-width: 875px;
+    border-radius: 5%;
+    flex-shrink: 0;
+}
+
+.recipe, .exercise, .article {
+    margin-bottom: 3rem; /* Aumenta a margem inferior */
+    padding: 2rem; /* Aumenta o padding para maior altura */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens do formulário */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+form label, form input, form textarea, form button {
+    width: 100%; /* Faz com que os elementos do formulário ocupem 100% da largura */
+    max-width: 600px; /* Limita a largura máxima dos elementos do formulário */
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 1rem; /* Aumenta o padding dos campos de entrada para maior altura */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 1rem 2rem; /* Aumenta o padding do botão para maior altura e largura */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+#whatsappButton button {
+    padding: 1rem 2rem; /* Tamanho do botão */
+    background-color: #18a84d; /* Cor do botão do WhatsApp */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem; /* Espaçamento superior */
+}
+
+#whatsappButton button:hover {
+    background-color: #1EBEA5; /* Cor ao passar o mouse */
+}
